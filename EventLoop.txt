@@ -1,0 +1,7 @@
+There is one Call Stack and one Callback Queue. When synchronous code runs,
+ it goes directly to the Call Stack and executes immediately.
+Asynchronous functions (like setTimeout, setImmediate, promises, etc.) 
+are handled by the browser or Node.js APIs.
+Once the async work is finished, the callback is sent to the Queue.
+The Event Loop checks if the Call Stack is empty; if yes,
+ it moves the callback from the Queue into the Call Stack and executes it
