@@ -1,0 +1,12 @@
+Rest Api -> 
+Get/users -> List all users  
+
+Get/users/1 -> Get the user which holds the id 1 
+Get/users/2 -> Get the user with id -2
+
+Post/users -> Create a new user 
+Post/users/1 -> edit he user with id 1 
+
+Patch/users/1 -> Edit the user with id 1 
+
+Delete/users/1 -> Delete the user id 1 
